@@ -1,0 +1,99 @@
+html{
+    scroll-behavior: smooth;
+ }
+ *::selection{
+    color: #000000;
+    background-color:#505050;
+ }body{
+    background: url(../Images/rcrop.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0%;
+   
+    
+}
+.logform{
+    
+    background-color:#4B5D67;
+    display: inline-block;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0,0.3);
+    width: 500px;
+    height: 700px;
+  
+} 
+.logform .t{
+    font-size: 25px;
+    color: #fff;
+
+}
+::placeholder{
+    color: #fff;
+
+}
+.p{
+    color: #fff;
+}
+.logform .s{
+    margin-bottom: 10px;
+    color: #fff;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    line-height: 50px;
+    
+}
+a:hover{
+    text-decoration:underline;
+    color:#fff;
+}
+
+
+input[type='text'],input[type='password']{
+    border: none;
+    background: transparent;
+    border-bottom:1px solid #fff;
+    outline-style: none;
+}
+
+
+
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* ============================================== submit button ===================================== */
+input[type='submit']:hover{
+    cursor: pointer;
+    background-color:rgb(15, 75, 4);
+    
+}
+.submitButton:active{
+     transform: scale(1.1);
+}
+
+/* -------------------------------------------------------- */
+.sub-btn,.reset-btn{
+ 
+    width: 100px;
+    border: 0px;
+    border-radius:5px ;
+    background-color:#F0E9D2;
+    padding: 5px;
+    margin-top: 30px;
+}
