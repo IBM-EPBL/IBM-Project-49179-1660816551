@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style/index.css">
+    <title>LogIn</title>
+    <script  type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <!-- login form -->
+    <div class="logform">
+       
+        <form name="loginForm" >
+            <h1>Login</h1>
+            <p class="t">User name</p>
+            <input type="text" name="uname" id="username" placeholder="Enter User name">
+
+            <p class="t">Password</p>
+            <input type="password" name="upswd" id="password" placeholder="Enter Password">
+
+            <div id="ErrorBox"></div><br>
+
+           
+            <button type="button" onclick="login()"  class="sub-btn">Submit</button>
+            <input type="reset"  class="reset-btn">
+            <br>
+            <p class="s">Doesn't have a account?New user?<a href="/register.html">Register</a></p>
+        </form>
+        
+       
+    </div>
+   
+</body>
+</html>
